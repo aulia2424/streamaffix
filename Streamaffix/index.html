@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
-    <title>Aulia - AMB Apps</title>
+    <title>Streamaffix</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- owl carousel css -->
@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- boostrap online link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
   </head>
   <body>
 
@@ -29,23 +32,48 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" data-scroll-nav="0" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-scroll-nav="1" href="#">Features</a>
+
+            <li class="nav-item dropdown text-white">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Layanan
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./layanan/smm.html">Social Media Management</a></li>
+                <li><a class="dropdown-item" href="./layanan/live.html">Live Shopping</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-scroll-nav="2" href="#">Screenshots</a>
+
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" data-scroll-nav="2" href="#">Klien Kami</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-scroll-nav="4" href="#">Testimonial</a>
+
+            <li class="nav-item dropdown text-white">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mitra
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./mitra/cc.html">Content Creators</a></li>
+                <li><a class="dropdown-item" href="./mitra/streamers.html">Streamers</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-scroll-nav="5" href="#">Pricing</a>
+
+            <li class="nav-item dropdown text-white">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Lainnya
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./lainnya/tentang-kami.html">Tentang Kami</a></li>
+                <li><a class="dropdown-item" href="./lainnya/agenda.html">Agenda</a></li>
+                <li><a class="dropdown-item" href="./lainnya/tim-kami.html">Tim Kami</a></li>
+                <li><a class="dropdown-item" href="./lainnya/karir.html">Karir</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-scroll-nav="6" href="#">Contact</a>
+
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" data-scroll-nav="6" href="#">Hubungi Kami</a>
             </li>
           </ul>
         </div>
@@ -65,13 +93,17 @@
           <div class="row align-items-center">
             <div class="col-md-7">
               <div class="home-text">
-                <h1>Best Mobile App Tamplate for your Business</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae omnis fugiat adipisci laudantium, quasi libero est assumenda culpa ea voluptatem, eos voluptatum laborum, sint autem.</p>
+                <h1>Menghubungkan brand anda ke dunia digital</h1>
+                <h4>PT Putra Dewi Media Kreatif,</h4>
+                <p>
+                  Sejak berdiri pada Oktober 2023, kami telah menjadi kekuatan utama di
+                  dunia media kreatif. Fokus utama kami melibatkan diri dalam Talent
+                  Management, Production House, dan Digital Marketing, dengan tujuan
+                  memberikan solusi terdepan dalam industri yang terus berkembang
+                  saat ini.
+                </p>
                 <div class="home-btn">
-                  <a href="#" data-scroll-goto="3"  class="btn btn-1">Download App</a>
-                  <button type="button" class="btn btn-1 video-play-btn">
-                    <i class="fas fa-play"></i>
-                  </button>
+                  <a href="https://www.instagram.com/streamaffix.id/"><img src="./img/streamafix/logo-ig.png" alt=""></a>
                 </div>
               </div>
             </div>
@@ -93,7 +125,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>Awsome <span>Features</span></h2>
+              <h2>Layanan <span>Kami</span></h2>
             </div>
           </div>
         </div>
@@ -101,23 +133,38 @@
           <div class="owl-carousel features-carousel">
             <div class="feature-item">
               <div class="icon"><i class="fas fa-code"></i></div>
-              <h3>Clean Code</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat, eveniet non corrupti quod quo.</p>
+              <h3>Live Streaming Produk</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
             </div>
             <div class="feature-item">
               <div class="icon"><i class="fas fa-edit"></i></div>
-              <h3>Auto Install System</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat, eveniet non corrupti quod quo.</p>
+              <h3>Social Media Management</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
             </div>
             <div class="feature-item">
               <div class="icon"><i class="fas fa-paint-brush"></i></div>
-              <h3>Pixel Perfect Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat, eveniet non corrupti quod quo.</p>
+              <h3>Advertising Production House</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
             </div>
             <div class="feature-item">
               <div class="icon"><i class="fas fa-check"></i></div>
-              <h3>Fast Load App</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat, eveniet non corrupti quod quo.</p>
+              <h3>Digital Marketing</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
+            </div>
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-check"></i></div>
+              <h3>Agency Talent</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
+            </div>
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-check"></i></div>
+              <h3>Branding Product</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
+            </div>
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-check"></i></div>
+              <h3>Photo Product</h3>
+              <button class="btn-2">Baca Selengkapnya</button>
             </div>
           </div>
         </div>
@@ -136,33 +183,40 @@
           </div>
           <div class="col-lg-6 col-md-7">
             <div class="section-title">
-              <h2>Fun <span>Facts</span></h2>
+              <h2>Promo <span>Menarik</span></h2>
             </div>
             <div class="fun-facts-text">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum sequi amet earum distinctio modi consequatur quaerat illo possimus maiores obcaecati. Possimus nostrum doloremque vitae facere adipisci.</p>
+              <p>
+                lagi musim live online shop tapi ga pede depan kamera? atau ga punya   team dan ga ada waktu untuk live?
+                tenang ada kita yang siap bantu tingkatkan penjualan online mu!!.
+              </p>
               <div class="row">
                 <div class="col-sm-6">
                   <div class="fun-fact-item style-1">
-                    <h3>5 B</h3>
-                    <span>Downoads</span>
+                    <h3>1.150K</h3>
+                    <h5 class="text-light">1 Bulan</h5>
+                    <span>Live Shopee & Tiktok</span>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="fun-fact-item style-2">
-                    <h3>2 M</h3>
-                    <span>likes</span>
+                    <h3>2.150K</h3>
+                    <h5 class="text-light">2 Bulan</h5>
+                    <span>Live Shopee & Tiktok</span>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="fun-fact-item style-3">
-                    <h3>35000</h3>
-                    <span>8 Start Rating</span>
+                    <h3>2.550K</h3>
+                    <h5 class="text-light">1 Bulan</h5>
+                    <span>Live Shopee + Konten</span>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="fun-fact-item style-4">
-                    <h3>320</h3>
-                    <span>Awards</span>
+                    <h3>4.750K</h3>
+                    <h5 class="text-light">2 Bulan</h5>
+                    <span>Live Shopee + Konten</span>
                   </div>
                 </div>
               </div>
@@ -179,7 +233,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>App <span>Screenshots</span></h2>
+              <h2>Klien <span>Kami</span></h2>
             </div>
           </div>
         </div>
@@ -212,16 +266,17 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>Download <span>App</span></h2>
+              <h2>Pilih <span>Paket</span></h2>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6">
               <div class="app-download-item">
                 <i class="fab fa-google-play"></i>
-                <h3>Google Play</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure libero, amet consectetur nisi earum neque quasi voluptate.</p>
-                <a href="#" class="btn btn-2">Download Now</a>
+                <h3>1 Bulan</h3>
+                <h4>Live Shoppe & Tiktok</h4>
+                <p>1.150K</p>
+                <a href="#" class="btn btn-2">Selengkapnya</a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -252,7 +307,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>how it <span>works</span></h2>
+              <h2>Cara Layanan kami <span>Bekerja</span></h2>
             </div>
           </div>
         </div>
@@ -292,7 +347,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>what our <span>client</span> say</h2>
+              <h2>Testi<span>moni</span></h2>
             </div>
           </div>
         </div>
@@ -399,7 +454,7 @@
                 </ul>
               </div>
               <div class="pricing-footer">
-                <a href="#" class="btn-2">Get Started</a>
+                <a href="#" class="btn btn-2">Get Started</a>
               </div>
             </div>
           </div>
@@ -462,7 +517,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>Team <span>Member</span></h2>
+              <h2>Tim <span>Kami</span></h2>
             </div>
           </div>
         </div>
@@ -470,22 +525,22 @@
           <div class="owl-carousel team-carousel">
             <div class="team-item">
               <img src="img/testimonial/5.jpeg" alt="team" />
-              <h3>Aulia Martha</h3>
+              <h3>Ka Tahir</h3>
               <span>UI Designer</span>
             </div>
             <div class="team-item">
               <img src="img/testimonial/6.jpeg" alt="team" />
-              <h3>Aulia Martha</h3>
+              <h3>Ka Awan</h3>
               <span>Software Developer</span>
             </div>
             <div class="team-item">
               <img src="img/testimonial/7.jpeg" alt="team" />
-              <h3>Aulia Martha</h3>
+              <h3>Ka Aulia</h3>
               <span>Full Stuck Developer</span>
             </div>
             <div class="team-item">
               <img src="img/testimonial/8.jpeg" alt="team" />
-              <h3>Aulia Martha</h3>
+              <h3>Aulia Martha B.</h3>
               <span>Web Developer</span>
             </div>
           </div>
@@ -560,7 +615,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
-              <h2>get in <span>touch</span></h2>
+              <h2>Hubungi <span>Kami</span></h2>
             </div>
           </div>
         </div>
@@ -570,8 +625,8 @@
               <h4>For Any Queries And Support</h4>
               <div class="contact-info-item">
                 <i class="fas fa-location-arrow"></i>
-                <h4>Company Location</h4>
-                <p>Minnesota</p>
+                <h4>Lokasi Pusat Perusahaan</h4>
+                <p>Depok City</p>
               </div>
               <div class="contact-info-item">
                 <i class="fas fa-envelope"></i>
@@ -679,7 +734,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <p class="copyright-text">&copy;2022 @AMB Apps</p>
+            <p class="copyright-text">&copy;2022 @Streamaffix Apps</p>
           </div>
         </div>
       </div>
@@ -715,6 +770,7 @@
     <script src="js/scrollIt.min.js"></script>
     <!-- main js -->
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
 

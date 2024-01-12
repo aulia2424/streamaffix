@@ -186,6 +186,7 @@ ul {
   background-color: transparent;
   padding: 20px 0;
   transition: all 0.5s ease;
+  font-family: "Poppins";
 }
 
 .navbar.navbar-shrink {
@@ -206,7 +207,7 @@ ul {
 }
 
 .navbar .navbar-brand img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .navbar .nav-item {
@@ -264,26 +265,8 @@ ul {
   font-weight: 300;
 }
 
-.home .home-btn {
-  margin-top: 40px;
-}
-
-.home .home-btn .video-play-btn {
-  margin-left: 30px;
-  height: 50px;
-  width: 50px;
-  padding: 0;
-  font-size: 16px;
-  animation: pulse_01 2s ease infinite;
-}
-
-.home .home-btn .video-play-btn:hover {
-  animation: none;
-  box-shadow: var(--shadow-black-300);
-}
-
-.home .home-btn .video-play-btn i {
-  line-height: 50px;
+.home .home-btn a img {
+  max-width: 200px;
 }
 
 .home-img img {
@@ -616,7 +599,7 @@ ul {
 }
 
 .btn-2 {
-  background-color: transparent;
+  background-color: var(--color-4);
   padding: 12px 30px;
   border: none;
   border-radius: 30px;
